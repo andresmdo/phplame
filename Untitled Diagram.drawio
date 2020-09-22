@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T21:02:33.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="mI1m257Ds2jqftGxUdS2" version="13.6.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-22T19:21:18.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="icWsXvA5krf0B9sBuo5z" version="13.6.10" type="github" pages="4">
   <diagram id="5VUin_z2-ri86tSEm_hD" name="Free Streams">
     <mxGraphModel dx="1343" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,7 +264,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e1lrt9IcqPMYMPF66xgE" name="Digicel">
-    <mxGraphModel dx="1347" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GBFjijhpgLcAFgVtgurW-0" />
         <mxCell id="GBFjijhpgLcAFgVtgurW-1" parent="GBFjijhpgLcAFgVtgurW-0" />
@@ -404,6 +404,29 @@
         </mxCell>
         <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-38" value="In and wait&lt;br&gt;Response" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="GBFjijhpgLcAFgVtgurW-1">
           <mxGeometry x="494" y="628" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GBFjijhpgLcAFgVtgurW-1" source="4O4y0b4Cb9Nwwj2YMUKL-45" target="4O4y0b4Cb9Nwwj2YMUKL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-45" value="Charge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GBFjijhpgLcAFgVtgurW-1">
+          <mxGeometry x="150" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GBFjijhpgLcAFgVtgurW-1" source="4O4y0b4Cb9Nwwj2YMUKL-46" target="4O4y0b4Cb9Nwwj2YMUKL-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-46" value="Send cahrge request" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="GBFjijhpgLcAFgVtgurW-1">
+          <mxGeometry x="150" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GBFjijhpgLcAFgVtgurW-1" source="4O4y0b4Cb9Nwwj2YMUKL-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-48" value="Request received.&lt;br&gt;Wait." style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="GBFjijhpgLcAFgVtgurW-1">
+          <mxGeometry x="170" y="820" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4O4y0b4Cb9Nwwj2YMUKL-56" value="* Ver Check subscription" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GBFjijhpgLcAFgVtgurW-1">
+          <mxGeometry x="340" y="845" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
